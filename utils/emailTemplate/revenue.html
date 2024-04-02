@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revenue Details</title>
+</head>
+<body>
+  <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <h2 style="text-align: center;">Revenue Details</h2>
+    <p>Dear author,</p>
+    <p>Your revenue for <strong>${month}/${year}</strong> is <strong>${totalRevenue}</strong>.</p>
+    <p>Below is the detailed breakdown:</p>
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">ID</th>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Author</th>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Month</th>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Year</th>
+          <th style="border: 1px solid #dddddd; text-align: left; padding: 8px;">Revenue</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Populate table rows with revenue details here -->
+        <tr>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${id}</td>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${authorName}</td>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${month}</td>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${year}</td>
+          <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${revenue}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>If you have any questions, feel free to contact us.</p>
+    <p>Regards,<br>The Bookstore Team</p>
+  </div>
+</body>
+</html>
